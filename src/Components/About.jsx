@@ -24,19 +24,18 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a CSE student studying at Bennett University. I'm all about hacking my way through complex problems. Whether it's building apps in the wee hours or geeking out over the latest tech trends, I'm in my element when surrounded by lines of code.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
+  "Python",
+  "Flutter",
+  "Data Analysis",
+  "Cloud Computing",
   "Mobile user interfaces",
-  "Graphic design",
 ];
 
 /**
@@ -45,7 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "CS undergrad with a knack for coding wizardry and a passion for tech innovation. 🚀 Currently navigating the wild world of algorithms and data structures. No, I don't just survive on textbooks; I love getting my hands dirty with real-world coding challenges.";
 
 const About = () => {
   return (
@@ -61,7 +60,7 @@ const About = () => {
         }}
       >
         <h2>About Myself</h2>
-        <p className="large">{description}</p>
+        <p className="medium">{description}</p>
         <hr />
         <ul
           style={{

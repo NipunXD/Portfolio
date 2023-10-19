@@ -28643,7 +28643,7 @@ const Home = ({ name , title  })=>{
                     position: "absolute",
                     top: "5rem",
                     left: "2rem",
-                    width: "17rem",
+                    width: "30rem",
                     color: "white"
                 },
                 children: [
@@ -28654,7 +28654,7 @@ const Home = ({ name , title  })=>{
                         lineNumber: 32,
                         columnNumber: 9
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
@@ -28676,8 +28676,8 @@ const Home = ({ name , title  })=>{
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     src: (0, _downArrowSvgDefault.default),
                     style: {
-                        height: "3rem",
-                        width: "3rem"
+                        height: "2rem",
+                        width: "2rem"
                     },
                     alt: imageAltText
                 }, void 0, false, {
